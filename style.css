@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f13;
+    color: #ffffff;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #a78bfa;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #a78bfa;
+}
+
+.hero {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-text {
+    max-width: 650px;
+}
+
+.greeting {
+    color: #a78bfa;
+    font-size:1.2rem;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size:4rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: #c4c4cc;
+    margin-bottom: 25px;
+}
+
+.description {
+    color: #a7a7b2;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 580px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: #a78bfa;
+    color: #0f0f13
+}
+
+.secondary {
+    border: 1xp solid #a78bfa;
+    color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-card {
+    background-color: #18181f;
+    border: 1px solid #292933;
+    border-radius: 15px;
+    padding: 30px;
+    min-width: 300px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+
+    font-family: monospace;
+    line-height: 1.8;
+    color: #c4c4cc;
+}
+
+.code-card span {
+    color: #a78bfa;
+}
