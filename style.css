@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #0f0f13;
     color: #ffffff;
 }
@@ -137,5 +137,104 @@ h2 {
 }
 
 .code-card span {
+    color: #a78bfa;
+}
+
+#sobre {
+    padding:120px 10%;
+}
+
+.sobre-container{
+    display:flex;
+    align-items: center;
+    gap:80px;
+}
+
+.sobre-imagem img{
+    width: 280px;
+    height:350px;
+    object-fit: cover;
+    border-radius:20px;
+    border: none;
+    box-shadow: 0 15px 35px rgba(0,0,0,.35);
+}
+
+.sobre-texto{
+    max-width: 650px;
+
+}
+
+.sobre-texto h2{
+    font-size:2.5rem;
+    color:#a78bfa;
+    margin-bottom: 25px;
+}
+
+.sobre-texto p{
+    margin-bottom: 18px;
+    line-height:1.8;
+    color:#cfcfd4;
+}
+
+#tecnologias{
+    padding:120px 10%;
+}
+
+#tecnologias h2{
+    text-align:center;
+    color:#a78bfa;
+    font-size:2.5rem;
+}
+
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 220px);
+    justify-content: center;
+    gap:30px;
+    margin-top: 60px;
+}
+
+.tech-item{
+    background: #18181f;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.tech-item i{
+    font-size:55px;
+}
+
+.tech-item span{
+    display:block;
+    margin-top: 15px;
+}
+
+.tech-item:hover{
+    transform:translater(-8px);
+    border-color:#a78bfa;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.estudando{
+    margin-top:70px;
+    text-align:center;
+}
+
+.estudando h3{
+    margin-bottom: 15px;
+    color:#a78bfa;
+}
+
+.estudando p{
+    color:#d4d4d4;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.tech-item .fa-brain{
+    font-size: 55px;
     color: #a78bfa;
 }
