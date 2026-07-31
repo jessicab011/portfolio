@@ -238,3 +238,176 @@ h2 {
     font-size: 55px;
     color: #a78bfa;
 }
+
+section{
+    padding: 100px 10%;
+}
+
+section h2{
+    font-size: 3rem;
+    color: #a78bfa;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#projetos{
+    padding:120px 10%;
+}
+
+#projetos h2{
+    text-align:center;
+    font-size:2.5rem;
+    color:#a78bfa;
+    margin-bottom:15px;
+}
+
+.projetos-subtitulo{
+    text-align:center;
+    color:#bdbdc7;
+    margin-bottom:60px;
+    font-size:1.1rem;
+}
+
+.projeto-grid{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.projeto-card{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    background:#18181f;
+    border-radius:20px;
+    padding:30px;
+
+    transition:.3s;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+.projeto-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.projeto-esquerda{
+   flex: 1.6;
+}
+
+.projeto-direita{
+    flex: 1;
+}
+
+.projeto-esquerda img{
+    width:100%;
+    display:block;
+
+    border-radius:15px;
+
+    border:1px solid #2d2d38;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    margin:25px 25px 10px;
+
+    padding:7px 15px;
+
+    border-radius:20px;
+
+    background:#a78bfa;
+
+    color:#0f0f13;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
+
+.projeto-card h3{
+
+    color:white;
+
+    margin:0 25px 15px;
+
+    font-size:1.5rem;
+
+}
+
+.projeto-card p{
+
+    color:#c9c9d3;
+
+    margin:0 25px 25px;
+
+    line-height:1.8;
+
+}
+
+.projeto-tech{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin:0 25px 30px;
+
+}
+
+.projeto-tech span{
+
+    background:#272732;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:.85rem;
+
+}
+
+.projeto-links{
+
+    margin:0 25px 30px;
+
+}
+
+.projeto-links a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#a78bfa;
+
+    color:#0f0f13;
+
+    font-weight:600;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.projeto-links a:hover{
+
+    opacity:.8;
+
+}
