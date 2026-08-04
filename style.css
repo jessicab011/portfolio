@@ -139,7 +139,7 @@ h2 {
     color: #0f0f13
 }
 
-.secondary {
+.secondary{
     border: 1xp solid #a78bfa;
     color: #ffffff;
 }
@@ -245,7 +245,7 @@ h2 {
 }
 
 .tech-item:hover{
-    transform:translater(-8px);
+    transform:translateY(-8px);
     border-color:#a78bfa;
     box-shadow:0 15px 35px rgba(0,0,0,.25);
 }
@@ -512,4 +512,98 @@ footer{
 footer p{
     color: #9ca3af;
     font-size: .95rem;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        gap:20px;
+        padding: 20px 0;
+    }
+
+    .nav-links{
+        gap:18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        padding-top: 140px;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        min-height: auto;
+        padding: 40px 0;
+    }
+
+    .hero-text{
+        max-width: 100%;
+    }
+
+    .hero-text h2{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.2rem;
+    }
+
+    .description{
+        margin: 0 auto 35px;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    code-card{
+        min-width: auto;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    sobre-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .sobre-texto{
+        max-width: 100%;
+    }
+
+    .tech-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .projeto-card{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .projeto-esquerda,
+    .projeto-direita{
+        width:100%;
+    }
+
+    .badge,
+    .projeto-card h3,
+    .projeto-card p,
+    .projeto-tech,
+    .projeto-links{
+        margin-left: 0;
+        margin-right:0;
+    }
+
+    .contato-grid{
+        grid-template-columns: 1fr;
+    }
 }
