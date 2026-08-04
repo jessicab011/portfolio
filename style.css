@@ -430,7 +430,7 @@ section h2{
 }
 
 #contato{
-    padding:120px 10%;
+    padding:90px 10%;
 }
 
 #contato h2{
@@ -442,8 +442,8 @@ section h2{
 .contato-texto{
     text-align:center;
     color:#c4c4cc;
-    margin:25px auto 60px;
-    max-width:650px;
+    margin:0 auto 40px;
+    max-width:700px;
     line-height:1.8;
 }
 
