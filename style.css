@@ -25,6 +25,22 @@ body {
     align-items: center;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background: rgba(15, 15, 19, 0.95);
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+}
+
+main{
+    padding-top: 90px;
+}
+
 .logo {
     color: #a78bfa;
     text-decoration: none;
