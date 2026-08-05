@@ -522,7 +522,7 @@ footer p{
     }
 
     .nav-links{
-        gap:18px;
+        gap:20px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -536,7 +536,7 @@ footer p{
         text-align: center;
         gap: 50px;
         min-height: auto;
-        padding: 40px 0;
+        padding-top: 40px;
     }
 
     .hero-text{
@@ -552,7 +552,11 @@ footer p{
     }
 
     h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
+    }
+
+    .hero-subtitle{
+        font-size:1.8;
     }
 
     .description{
@@ -561,13 +565,13 @@ footer p{
 
     .hero-buttons{
         justify-content: center;
-        flex-wrap: wrap;
+    
     }
 
     code-card{
         min-width: auto;
         width: 100%;
-        max-width: 350px;
+        max-width: 340px;
     }
 
     sobre-container{
@@ -587,6 +591,7 @@ footer p{
     .projeto-card{
         flex-direction: column;
         padding: 20px;
+        gap: 20px;
     }
 
     .projeto-esquerda,
@@ -605,5 +610,9 @@ footer p{
 
     .contato-grid{
         grid-template-columns: 1fr;
+    }
+
+    #contato h2{
+        font-size: 2rem;
     }
 }
