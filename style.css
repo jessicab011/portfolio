@@ -515,69 +515,63 @@ footer p{
 }
 
 @media (max-width: 768px){
-    .navbar{
-        flex-direction: column;
-        gap:20px;
-        padding: 20px 0;
-    }
-
-    .nav-links{
-        gap:20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
     main{
         padding-top: 140px;
     }
 
     .hero{
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
-        gap: 50px;
+        gap: 40px;
         min-height: auto;
-        padding-top: 40px;
+        padding: 30px 0;
     }
 
     .hero-text{
         max-width: 100%;
     }
 
-    .hero-text h2{
-        text-align: center;
-    }
-
     h1{
-        font-size: 3rem;
-    }
-
-    h2{
-        font-size: 2rem;
+        font-size:2.6rem;
     }
 
     .hero-subtitle{
-        font-size:1.8;
+        font-size:1.4rem;
     }
 
     .description{
-        margin: 0 auto 35px;
+        max-width:100%;
+        margin: 20px auto 35px;
     }
 
     .hero-buttons{
-        justify-content: center;
-    
+        flex-direction:column;
+        width:100%;
+        gap:15px;
     }
 
-    code-card{
-        min-width: auto;
+    .btn{
+        width:100%;
+        text-align:center;
+
+    }
+
+    .code-card{
         width: 100%;
-        max-width: 340px;
+        max-width: 330px;
+        margin:auto;
     }
 
-    sobre-container{
+    .sobre-container{
         flex-direction: column;
         text-align: center;
-        gap: 40px;
+        gap: 35px;
+    }
+
+    .sobre-imagem img{
+        width: 220px;
+        height: 280px;
     }
 
     .sobre-texto{
@@ -585,13 +579,18 @@ footer p{
     }
 
     .tech-grid{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tech-item{
+        padding:30px;
     }
 
     .projeto-card{
         flex-direction: column;
-        padding: 20px;
-        gap: 20px;
+        padding: 18px;
+        gap: 25px;
     }
 
     .projeto-esquerda,
@@ -599,20 +598,16 @@ footer p{
         width:100%;
     }
 
-    .badge,
-    .projeto-card h3,
-    .projeto-card p,
-    .projeto-tech,
-    .projeto-links{
-        margin-left: 0;
-        margin-right:0;
+    .projeto-esquerda img{
+        width:100%;
+        border-radius: 15px;
     }
 
     .contato-grid{
         grid-template-columns: 1fr;
     }
 
-    #contato h2{
-        font-size: 2rem;
+    section{
+        padding: 70px 8%;
     }
 }
