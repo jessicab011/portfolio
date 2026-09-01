@@ -8,7 +8,7 @@ _ _ _
 
 ## 🚀 Demonstração
 
-🔗 Em breve disponível no GitHub Pages.
+🔗 Disponível no GitHub Pages: https://jessicab011.github.io/portfolio/
 
 _ _ _
 
@@ -61,6 +61,11 @@ Abra o arquivo `index.html` no navegador.
 - [LinkedIn](https://www.linkedin.com/in/jessica-borges-404598237)
 - [GitHub](https://github.com/jessicab011)
 - E-mail: jessicaborges0211@gmail.com
+
+## Próximos passos
+
+- Área de certificações
+- Seção de voluntariado
 
 _ _ _
 
