@@ -445,6 +445,87 @@ section h2{
 
 }
 
+#voluntariado{
+    padding: 120px 10%;
+}
+
+#volntariado h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.voluntariado-card{
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    gap: 45px;
+    background: #18181f;
+    border-radius: 20px;
+    padding: 45px;
+    border: 1px solid #2d2d38;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(0,0,0,.25);
+}
+
+.voluntariado-card:hover{
+    transform:translateY(-8px);
+    border-color: #a78bfa;
+    box-shadow: 0 20px 45px rgba(0,0,0,.25);
+}
+
+
+.voluntariado-icon img{
+    width: 90px;
+    height: auto;
+    display: block;
+    font-size: 70px;
+}
+
+.voluntariado-conteudo{
+    flex: 1;
+}
+
+.voluntariado-badge{
+    display: inline-block;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: #a78bfa;
+    color: #0f0f13;
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.voluntariado-conteudo h3{
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.voluntariado-conteudo p{
+    color: #c9c9d3;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.voluntariado-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.voluntariado-tags span {
+    background: #272732;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 30px;
+    font-size: .85rem;
+}
+
 #contato{
     padding:90px 10%;
 }
