@@ -24,6 +24,7 @@ _ _ _
 - Seção "Sobre Mim"
 - Tecnologias e ferramentas
 - Projetos desenvolvidos
+- Seção de voluntariado
 - Área de contato com links para Linkedin, Github e e-mail
 - Layout responsivo
 
@@ -65,7 +66,6 @@ Abra o arquivo `index.html` no navegador.
 ## Próximos passos
 
 - Área de certificações
-- Seção de voluntariado
 
 _ _ _
 
