@@ -568,8 +568,10 @@ section h2{
 }
 
 .certificacao-header i{
-    font-size: 50px;
-    color: #a78bfa;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .certificacao-empresa{
