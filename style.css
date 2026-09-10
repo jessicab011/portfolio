@@ -533,7 +533,7 @@ section h2{
 #certificacoes h2{
     text-align: center;
     font-size:2.5rem;
-    color:white;
+    color:#a78bfa;
     margin-bottom: 60px;
 }
 
@@ -568,9 +568,14 @@ section h2{
 }
 
 .certificacao-header i{
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
+    font-size: 50px;
+    color: white;
+}
+
+.certificacao-header img{
+    width: 60px;
+    height: auto;
+    display: block;
     flex-shrink: 0;
 }
 
