@@ -14,7 +14,7 @@ _ _ _
 
 ## 📸 Preview
 
-<img width="1872" height="897" alt="image" src="https://github.com/user-attachments/assets/b86f01c4-83a0-4921-94c3-d123c5274cd1" />
+<img width="1865" height="891" alt="home" src="https://github.com/user-attachments/assets/5ef98245-5322-480d-b41d-538cf73318f3" />
 
 _ _ _
 
@@ -25,6 +25,7 @@ _ _ _
 - Tecnologias e ferramentas
 - Projetos desenvolvidos
 - Seção de voluntariado
+- Seção de certificações
 - Área de contato com links para Linkedin, Github e e-mail
 - Layout responsivo
 
@@ -62,10 +63,6 @@ Abra o arquivo `index.html` no navegador.
 - [LinkedIn](https://www.linkedin.com/in/jessica-borges-404598237)
 - [GitHub](https://github.com/jessicab011)
 - E-mail: jessicaborges0211@gmail.com
-
-## Próximos passos
-
-- Área de certificações
 
 _ _ _
 
