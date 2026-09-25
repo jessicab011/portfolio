@@ -31,6 +31,10 @@ _ _ _
 
 _ _ _
 
+# Próximo Passo:
+
+- Adicionar novo card de "certificação em andamento"
+
 ## 📂 Estrutura do projeto
 
 ```
