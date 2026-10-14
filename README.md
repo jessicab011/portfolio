@@ -34,7 +34,7 @@ _ _ _
 # Próximo Passo:
 
 - Adicionar novo card de "certificação em andamento"
-- Adicionar projeto do Hackaton "Copiloto Do Acessor"
+- Adicionar projeto do Hackaton "Copiloto Do Assessor"
 
 ## 📂 Estrutura do projeto
 
